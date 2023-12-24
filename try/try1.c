@@ -8,7 +8,8 @@
   	ls2=strlen(b);
   	for(i=0;i<(ls1>ls2?ls2:ls1);i++)
   		c[i]=(a[i]>b[i]?a[i]:b[i]);
-  	for(i=(ls1>ls2?ls2:ls1);i<(ls1>ls2?ls1:ls2);i++){
+  	for(i=(ls1>ls2?ls2:ls1);i<(ls1>ls2?ls1:ls2);i++)
+	{
   		if(ls1>ls2)
   			c[i]=a[i];
   		else
